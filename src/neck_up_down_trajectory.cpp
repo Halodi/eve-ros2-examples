@@ -88,8 +88,8 @@ private:
     trajectory_msg.trajectory_id = uuid_msg;
 
     // neck limits lower="-0.335" upper="0.506" 
-    std::vector<double> neck_angles = {-0.33, 0.0, 0.5};
-    std::vector<double> neck_timing = {2, 4, 6};
+    std::vector<double> neck_angles = { -0.2, 0.5 };
+    std::vector<double> neck_timing = { 3, 6 };
     
     for (std::vector<double>::size_type i = 0; i < neck_angles.size(); ++i) {
       
